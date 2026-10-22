@@ -4,7 +4,8 @@ running_package(){
 npm pkg set type=module
 npm install --save-dev hardhat
 }
-read -e -p  "1)create new directory \\n2)run hardhat installation here \\n3)Open new path" choice ;
+# declare -i choice ; u can essentially remove quotes next to the number
+read -e -p  """1)create new directory \\n2)run hardhat installation here \\n3)Open new path""" choice ;
 if [ "$choice" == "1" ]; then 
  read -p "name for the directory:" directory 
  mkdir "$directory" && cd "$directory" && running_package
