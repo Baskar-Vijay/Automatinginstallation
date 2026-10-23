@@ -4,7 +4,7 @@
 
 ## other cool things
 or if you intend to hide file extenstion from showing up in the system as normal
-``` mv ./installtionscript.sh newfilename ```
+``` mv ./installtionscript.sh newfilename # and run it normally with ./newfilename```
 or if plan to use systemwide append script into 
 ```/usr/local/bin``` this is strongly discouraged
 
