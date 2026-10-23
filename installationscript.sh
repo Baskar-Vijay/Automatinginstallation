@@ -16,7 +16,7 @@ elif [ $choice == 2 ]; then
 echo "running installation" && running_package
 elif [ $choice == 3 ]; then
 read -p "enter a valid directory path:" path
-cd "$path" && running_package &>log.txt
+cd "$path" && running_package # &>log.txt
 else
 echo "no valid option chosen"
 exit 0
