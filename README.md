@@ -1,4 +1,4 @@
-# Automatic Installation script
+# Automatic Installation script for Linux Systems 
 1. converting the shell script into a executable file for linux systems  using command ``` chmod +x installationscript.sh ``` 
 2. can be run as ``` ./installtionscript.sh ```
 
