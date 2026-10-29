@@ -1,6 +1,6 @@
 # Automatic Installation script for Linux Systems 
 1. converting the shell script into a executable file for linux systems  using command ``` chmod +x installationscript.sh ``` 
-2. can be run as ``` ./installtionscript.sh ```
+2. can be run as ``` ./installationscript.sh ```
 
 ## other cool things
 or if you intend to hide file extenstion from showing up in the system as normal
