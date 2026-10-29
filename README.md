@@ -3,10 +3,10 @@
 2. can be run as ``` ./installationscript.sh ```
 
 ## other cool things
-or if you intend to hide file extenstion from showing up in the system as normal
-``` mv ./installtionscript.sh newfilename # and run it normally with ./newfilename```
-or if plan to use systemwide,append script into 
-```/usr/local/bin``` - this is strongly discouraged
+* if you intend to hide file extenstion from showing up in the system as normal
+``` mv ./installationscript.sh newfilename # and run it normally with ./newfilename```
+* if plan to use systemwide,append script into 
+```/usr/local/bin``` - this is strongly discouraged for users who are new to linux systems.
 
 
 *note: You can modify the code download other packages quickly into a specific directory.(not limited to node packages)
